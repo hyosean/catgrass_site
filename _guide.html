@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>ui_ux_가이드</title>
+    <link href="./_res/css/ui-guide.css" rel="stylesheet">
+    
+    <!-- plugin-css -->
+    <link href="./_res/plugins/mCustomScrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="./_res/plugins/syntaxhighlighter/shCoreDefault.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper wrapper-guide">
+        <aside class="guide-nav">
+            <h1 class="nav-title">공통 UI</h1>
+        </aside>
+      <article class="content">
+            <div class="content-header">
+                <h2 class="content-title">코딩 가이드</h2>
+            </div>
+            <div class="content-body">
+                <div class="container">
+                    <div class="guide-section">
+                        <h3 class="guide-title" id="typo">타이포 
+                            <span class="text-small">text-*</span>
+                        </h3>
+                        <div class="guide-box-contents">
+                            <ul class="list list-gray">
+                                <li>기본 폰트 스타일은 .text-md 와 동일 합니다.</li>
+                                <li>자간 PC 20 (0.02em), Mobile 10 (0.01em)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="title-1">글꼴 크기</h4>
+                            <div>
+                                <p class="text-md">
+                                    <span>default typo style</span>
+                                    <strong class="text-point">.text-md</strong>
+                                    <br class="d-down-sm">
+                                    <span><strong>PC</strong> 16px/26px 나눔고딕 Normal</span> 
+                                    <br class="d-down-sm">
+									<span class="text-gray"><strong>Mobile</strong> 17px/25px</span>
+                                </p>
+                                <pre class="brush:html" title="HTML">
+                                    <p class="text-md"></p>
+                                    <strong class="text-md"></strong>
+                                    <span class="text-md"></span>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </article>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../../_res/yuhs/_share/js/jquery-1.12.4.min.js"></script>
+    <!-- mCustomScrollbar -->
+    <script src="./_res/plugins/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+
+    <!-- TODO : SyntaxHighlighter - 개발시 반드시 삭제 -->
+	<script src="./_res/js/ui-html-guide.js"></script>
+	<script src="./_res/plugins/syntaxhighlighter/shCore.js"></script>
+	<script src="./_res/plugins/syntaxhighlighter/shBrushXml.js"></script>
+	<script src="./_res/plugins/syntaxhighlighter/shBrushCss.js"></script>
+	<script src="./_res/plugins/syntaxhighlighter/shBrushJScript.js"></script>
+</body>
+</html>
